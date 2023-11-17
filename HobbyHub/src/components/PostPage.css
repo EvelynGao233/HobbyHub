@@ -1,0 +1,109 @@
+/* PostPage.css */
+.post-page {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .post {
+    margin-bottom: 2rem;
+  }
+  
+  .post-title {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .post-content {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .post-actions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .post-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .comments {
+    margin-bottom: 2rem;
+  }
+  
+  .comment {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .comment-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .comment-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .comment-form button:hover {
+    background-color: #218838;
+  }
+
+  .post-actions {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    gap: 1rem; /* Add space between elements */
+    margin-top: 1rem; /* Add some space above the actions */
+  }
+  
+  .post-actions button,
+  .post-actions span {
+    margin-right: 0.5rem; /* Add some space to the right of each button and span */
+  }
+  
+  /* To ensure that the last item does not have a margin-right, you can use the :last-child pseudo-class */
+  .post-actions button:last-child,
+  .post-actions span:last-child {
+    margin-right: 0; /* Remove the margin from the last child */
+  }
+  
+  /* Update your button styles to include padding and border-radius */
+  .button {
+    padding: 0.5rem 1rem; /* Add padding inside the buttons */
+    border-radius: 0.25rem; /* Round the corners slightly */
+  }
+
+  .edit-button {
+    background-color: #4299e1; /* A blue color for the edit button */
+  }
+  
+  .edit-button:hover {
+    background-color: #3182ce; /* A darker blue for the hover state */
+  }
+  
+  .post-image {
+    max-width: 100%; /* Ensure the image is no wider than its container */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove any inline spacing */
+    margin: 0 auto; /* Center the image within its container */
+    border-radius: 8px; /* Optional: round the corners of the image */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for some depth */
+  }
+  
