@@ -49,12 +49,13 @@ const PostPage = () => {
     const { data, error } = await supabase
       .from('comments')
       .insert([{ post_id: id, content: newComment }]);
-
+  
     if (error) {
       console.error('Error adding comment:', error);
     } else {
-      setComments([data[0], ...comments]);
       setNewComment(''); 
+      // Refetch the comments to include the new one
+      fetchComments();
     }
   };
 
