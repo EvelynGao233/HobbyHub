@@ -1,10 +1,6 @@
-# Web Development Final Project - *Name of App Here*
+# Web Development Final Project - *Hobby Hub*
 
-Submitted by: **Your Name Here**
-
-This web app: **insert description**
-
-Time spent: **X** hours spent in total
+Submitted by: **Yuxin Gao**
 
 ## Required Features
 
